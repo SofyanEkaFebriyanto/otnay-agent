@@ -24,7 +24,7 @@ Desired Outcome: 80% merasa diperhatikan, 20% berhenti sebentar.
 - Path A: top-down (keputusan editorial → tulisan)
 - Path B: bottom-up (spark → dikembangkan)
 
-## Core Skills
+## Core Skills (21 command)
 - `/challenge`
 - `/commission`
 - `/idea`

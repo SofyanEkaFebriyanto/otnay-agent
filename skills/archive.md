@@ -8,6 +8,7 @@ Input wajib
 - Title
 - Theme
 - Emotion
+- Voice
 - Object
 - Movement
 - Texture

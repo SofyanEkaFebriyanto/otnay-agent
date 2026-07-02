@@ -16,7 +16,7 @@ Tidak kasih hook.
 
 Jika jumlah > 1, usahakan bentuk atau sudut tidak sama semua.
 
-Variasikan bentuk:
+Variasikan bentuk. Jangan semua karya pakai cetakan yang sama:
 - puisi bebas
 - monolog
 - prosa pendek

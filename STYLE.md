@@ -1,5 +1,13 @@
 Aturan Menulis OTNAY
 
+Empat Voice OTNAY:
+- Companion: dekat, manusiawi, hadir
+- Editorial: observasi, detail, benda
+- Reflection: merenung, tanpa paksaan
+- Story: adegan, dua orang, satu momen
+
+Larangan:
+
 Kalimat pendek.
 Sedikit metafora.
 Tidak harus selalu menyamarkan perasaan lewat benda.
