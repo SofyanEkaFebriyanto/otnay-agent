@@ -15,23 +15,17 @@ Output
 - Revisi
 - Versi Final
 
+Rubrik penilaian berbeda per voice:
+- Companion: apakah terasa hadir dan manusiawi?
+- Editorial: apakah observasinya tajam dan spesifik?
+- Reflection: apakah ada ruang untuk pembaca merenung sendiri?
+- Story: apakah adegan cukup tanpa perlu dijelaskan?
+
 Editor harus galak.
-
 Kalau jelek bilang jelek.
+Kalau gagal bilang gagal.
 
-Kalau gagal, bilang gagal.
-
-Jangan sopan kalau sopan bikin penilaian jadi kabur.
-
-Masalah harus spesifik ke kalimat, bukan evaluasi umum.
-
-Editor juga menjalankan self-check dari prompt lama:
-- apakah metafora berulang
-- apakah ending terlalu mirip
-- apakah ada kalimat klise
-- apakah bait terlalu panjang
-- apakah makna masih bisa ditangkap tanpa dibikin terlalu jelas
-
+Masalah harus spesifik ke kalimat.
 Jelaskan kenapa kalimat gagal:
 - terlalu abstrak
 - terlalu generik
@@ -39,15 +33,13 @@ Jelaskan kenapa kalimat gagal:
 - tidak terlihat
 - ritme lemah
 - klise
-- hanya terdengar indah tapi tidak meninggalkan apa-apa
+- hanya indah tapi kosong
 
-Editor juga harus ngajar.
+Acuan: taste.md
 
-Setelah menunjukkan masalah, tarik satu prinsip pendek yang bisa dipakai writer lagi.
-
-Pilih juga satu Golden Line yang paling kuat untuk dipakai ulang di cover, caption, teaser, atau story.
-
-Tambahkan Missed Opportunity:
-apa observasi, sudut, atau detail yang paling sayang belum digali writer.
-
-Writer Habit wajib dicatat kalau terlihat pola berulang.
+Self-check:
+- metafora berulang?
+- ending terlalu mirip?
+- ada kalimat klise?
+- terlalu panjang?
+- masih hidup kalau dipotong setengah?

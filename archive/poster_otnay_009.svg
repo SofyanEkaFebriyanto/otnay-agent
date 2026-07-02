@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1080" height="1350" viewBox="0 0 1080 1350">
+
+  <defs>
+    <!-- Paper grain texture filter -->
+    <filter id="paper-grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="4"
+                    stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="gray-noise"/>
+      <feBlend in="SourceGraphic" in2="gray-noise" mode="multiply"/>
+    </filter>
+
+    <!-- Subtle paper texture overlay -->
+    <filter id="rough-edge" x="-0.5%" y="-0.5%" width="101%" height="101%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="5"
+                    result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+
+    <!-- Ink bleed effect -->
+    <filter id="ink-bleed" x="-2%" y="-2%" width="104%" height="104%">
+      <feGaussianBlur stdDeviation="0.3" result="blur"/>
+      <feComponentTransfer in="blur">
+        <feFuncA type="linear" slope="1.1" intercept="-0.02"/>
+      </feComponentTransfer>
+    </filter>
+
+    <!-- Subtle vignette -->
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="85%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.08)"/>
+    </radialGradient>
+
+    <!-- Light stain -->
+    <radialGradient id="stain1" cx="30%" cy="25%" r="40%">
+      <stop offset="0%" stop-color="rgba(180,160,130,0.04)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+
+    <radialGradient id="stain2" cx="75%" cy="80%" r="35%">
+      <stop offset="0%" stop-color="rgba(170,150,120,0.03)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Base paper background -->
+  <rect width="1080" height="1350" fill="#F2E7D3"/>
+
+  <!-- Subtle stains -->
+  <rect width="1080" height="1350" fill="url(#stain1)"/>
+  <rect width="1080" height="1350" fill="url(#stain2)"/>
+
+  <!-- Grain overlay -->
+  <rect width="1080" height="1350" fill="#F2E7D3" filter="url(#paper-grain)" opacity="0.15"/>
+
+  <!-- Subtle fiber lines -->
+  <line x1="200" y1="0" x2="210" y2="1350" stroke="rgba(190,170,140,0.04)" stroke-width="0.5"/>
+  <line x1="800" y1="0" x2="815" y2="1350" stroke="rgba(190,170,140,0.03)" stroke-width="0.3"/>
+
+  <!-- Vignette -->
+  <rect width="1080" height="1350" fill="url(#vignette)"/>
+
+  <!-- Left margin line (very subtle) -->
+  <line x1="175" y1="250" x2="175" y2="900" stroke="rgba(0,0,0,0.04)" stroke-width="0.5"/>
+
+  <!-- Poem text — using standard system fonts that look typewriter-like -->
+  <text x="200" y="270"
+        font-family="'Courier New', 'American Typewriter', 'Courier', 'Liberation Mono', monospace"
+        font-size="30"
+        fill="#1A1A1A"
+        letter-spacing="0.5"
+        line-height="1.6"
+        filter="url(#ink-bleed)">
+    <tspan x="200" dy="0">Untuk kamu yang kehilangan bulannya.</tspan>
+    <tspan x="200" dy="52" font-size="28" fill="#2A2A2A"/>
+    <tspan x="200" dy="52">Awalnya mungkin hanya sesuatu yang hadir.</tspan>
+    <tspan x="200" dy="48">Lalu pelan-pelan jadi penanda:</tspan>
+    <tspan x="200" dy="48">hari ini terang, besok juga.</tspan>
+    <tspan x="200" dy="72"/>
+    <tspan x="200" dy="52">Sampai suatu hari</tspan>
+    <tspan x="200" dy="48">kamu sadar waktu tidak lagi punya pacu yang sama.</tspan>
+    <tspan x="200" dy="72"/>
+    <tspan x="200" dy="52">Bukan karena langit gelap.</tspan>
+    <tspan x="200" dy="48">Tapi karena sesuatu yang dulu selalu menerangi,</tspan>
+    <tspan x="200" dy="48">sudah tidak lagi di sana.</tspan>
+  </text>
+
+  <!-- Signature line -->
+  <line x1="200" y1="1040" x2="250" y2="1040"
+        stroke="#1A1A1A" stroke-width="1.5" opacity="0.7"/>
+  <text x="200" y="1085"
+        font-family="'Courier New', 'American Typewriter', monospace"
+        font-size="20"
+        fill="#555"
+        letter-spacing="1">
+    <tspan x="200" dy="0">— otnay</tspan>
+    <tspan x="200" dy="32">2026</tspan>
+  </text>
+
+</svg>

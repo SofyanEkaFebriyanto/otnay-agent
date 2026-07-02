@@ -1,20 +1,21 @@
 /daily
 
-Ini orchestrator.
+Orchestrator.
 
-Jangan jadikan semua step wajib kalau tidak perlu.
+Pertama tentukan jalur:
 
-Preflight strategis:
-Challenge
-Trend
-Mutation / Antidote bila pola mulai busuk
-Commission bila butuh tugas baru
-Series bila butuh musim
-
-Flow utama:
-Challenge
+Path A — Top-down
+Why Today
 ↓
-Commission / Idea
+Reader State
+↓
+Intent
+↓
+Voice
+↓
+Commission
+↓
+Idea
 ↓
 Write
 ↓
@@ -23,12 +24,9 @@ Edit
 Critic
 ↓
 Blindtest
-
-Kalau Critic atau Blindtest = Rewrite/Kill,
-jangan lanjut.
-Balik ke Write atau stop.
-
-Kalau lolos:
+→ Rewrite/Kill? Balik ke Write
+→ Lolos? Lanjut
+↓
 Reader
 ↓
 Caption
@@ -39,9 +37,25 @@ Archive
 ↓
 DNA
 ↓
-Calendar
+Calendar / Energy Check
 
-Postmortem dipakai setelah ada arsip.
-Evolution dipakai untuk membaca perkembangan writer.
+Path B — Bottom-up (spark)
+Spark muncul
+↓
+Apa yang menarik?
+↓
+Voice cocok?
+↓
+Intent?
+↓
+Gabung ke pipeline setelah Commission
 
-Bukan satu prompt yang mencoba menjadi semua orang.
+Cek Energy Rhythm:
+Apakah feed bernapas?
+Jangan 3 post berturut-turut energi sama.
+
+Acuan:
+- taste.md
+- brand_anti_manifesto.md
+- energy_rhythm.md
+- reader_pattern.md

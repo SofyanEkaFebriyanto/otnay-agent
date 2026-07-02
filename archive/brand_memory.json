@@ -1,15 +1,91 @@
 {
-  "summary": "Brand memory OTNAY. Diisi dari archive, bukan karangan.",
-  "repeated_words": {},
-  "top_objects": {},
-  "top_verbs": {},
-  "top_senses": {},
-  "top_textures": {},
-  "top_endings": {},
-  "rhythm_patterns": [],
-  "sentence_habits": [],
-  "writer_habits": [],
-  "brand_risks": [],
-  "brand_drift_history": [],
-  "otnay_signature": []
+  "summary": "Brand memory OTNAY — 9 post pertama",
+  "brand_promise": "Membantu orang lebih dekat dengan hidup mereka sendiri",
+  "desired_outcome": {
+    "merasa_diperhatikan": "80%",
+    "berhenti_sebentar": "20%"
+  },
+  "post_count": 9,
+  "top_objects": {
+    "kursi": 1,
+    "keset": 1,
+    "lap meja": 1,
+    "sapu": 1,
+    "sendok": 1,
+    "struk belanja": 1,
+    "sandal": 1,
+    "hujan": 1,
+    "gagang payung": 1
+  },
+  "top_verbs": {
+    "ditarik": 1,
+    "dibasahi": 1,
+    "diperas": 1,
+    "diambil": 1,
+    "menyentuh dinding gelas": 1,
+    "dicetak": 1,
+    "diam": 1,
+    "turun": 1,
+    "ditutup": 1
+  },
+  "top_senses": {
+    "suara": 5,
+    "penglihatan": 2,
+    "sentuhan": 2
+  },
+  "top_textures": {
+    "lembap": 3,
+    "gesekan lantai": 1,
+    "debu tipis": 1,
+    "logam kecil, kaca tipis": 1,
+    "kertas tipis": 1,
+    "suara": 1,
+    "dingin": 1
+  },
+  "top_endings": {
+    "dingin": 8,
+    "hangat": 1
+  },
+  "top_voices": {
+    "editorial": 8,
+    "companion": 1
+  },
+  "voice_distribution": {
+    "editorial": 8,
+    "companion": 1,
+    "reflection": 0,
+    "story": 0
+  },
+  "rhythm_patterns": [
+    "pendek 6-8 baris dominan"
+  ],
+  "sentence_habits": [
+    "pembuka dengan pembalikan",
+    "baris pendek 2-4 kata",
+    "struktur observasi -> berhenti tanpa kesimpulan"
+  ],
+  "writer_habits": [
+    "prosa sering ditutup dengan kalimat kesimpulan",
+    "menutup dengan simbol besar saat observasi cukup",
+    "suka membuka dengan pembalikan: 'Yang...', 'Yang paling...'",
+    "tergoda membuat baris indah yang lebih sadar efek",
+    "ritme pendek jadi default"
+  ],
+  "brand_risks": [
+    "terlalu banyak benda rumah",
+    "ending dingin terlalu dominan",
+    "voice editorial dominan dibanding companion/reflection/story",
+    "belum ada human moment",
+    "ritme pendek jadi default, belum ada napas panjang",
+    "belum ada story, reflection, letter"
+  ],
+  "otnay_signature": [
+    "benda rumah kecil",
+    "observasi fisik",
+    "ritme hemat",
+    "ending dingin",
+    "emosi datang belakangan",
+    "tidak menjelaskan makna"
+  ],
+  "last_updated": "2026-07-03T00:31:15.494271"
 }

@@ -1,18 +1,209 @@
 {
-  "last_updated": "",
-  "post_count": 0,
-  "word_frequency": {},
-  "object_frequency": {},
-  "verb_frequency": {},
-  "movement_frequency": {},
-  "texture_frequency": {},
-  "sense_frequency": {},
-  "ending_frequency": {},
-  "tempo_frequency": {},
-  "form_frequency": {},
-  "detected_writer_habits": [],
-  "detected_brand_risks": [],
-  "brand_drift_history": [],
-  "otnay_test_history": [],
-  "originality_gate_history": []
+  "last_updated": "2026-07-03T00:31:15.494271",
+  "post_count": 9,
+  "word_frequency": {
+    "tidak": 7,
+    "setelah": 4,
+    "tapi": 3,
+    "masih": 3,
+    "kecil": 3,
+    "aku": 3,
+    "lagi.": 3,
+    "tipis": 3,
+    "baru": 3,
+    "bunyi": 2,
+    "lebih": 2,
+    "depan": 2,
+    "pintu.": 2,
+    "sebentar.": 2,
+    "airnya": 2,
+    "jatuh": 2,
+    "lantai.": 2,
+    "lembap": 2,
+    "lama.": 2,
+    "mulai": 2,
+    "sekali.": 2,
+    "sudah": 2,
+    "turun": 2,
+    "kursi": 1,
+    "ditarik": 1,
+    "kadang": 1,
+    "daripada": 1,
+    "obrolannya.": 1,
+    "ruangan": 1,
+    "kembali": 1,
+    "biasa.": 1,
+    "lantai": 1,
+    "menyimpan": 1,
+    "gesekan": 1,
+    "itu.": 1,
+    "melihat": 1,
+    "hujannya.": 1,
+    "cuma": 1,
+    "tahu": 1,
+    "datang": 1,
+    "pelan,": 1,
+    "berhenti": 1
+  },
+  "object_frequency": {
+    "kursi": 1,
+    "keset": 1,
+    "lap meja": 1,
+    "sapu": 1,
+    "sendok": 1,
+    "struk belanja": 1,
+    "sandal": 1,
+    "hujan": 1,
+    "gagang payung": 1
+  },
+  "verb_frequency": {
+    "ditarik": 1,
+    "dibasahi": 1,
+    "diperas": 1,
+    "diambil": 1,
+    "menyentuh dinding gelas": 1,
+    "dicetak": 1,
+    "diam": 1,
+    "turun": 1,
+    "ditutup": 1
+  },
+  "movement_frequency": {
+    "ditarik": 1,
+    "dibasahi": 1,
+    "diperas": 1,
+    "diambil": 1,
+    "menyentuh dinding gelas": 1,
+    "dicetak": 1,
+    "diam": 1,
+    "turun": 1,
+    "ditutup": 1
+  },
+  "texture_frequency": {
+    "lembap": 3,
+    "gesekan lantai": 1,
+    "debu tipis": 1,
+    "logam kecil, kaca tipis": 1,
+    "kertas tipis": 1,
+    "suara": 1,
+    "dingin": 1
+  },
+  "sense_frequency": {
+    "suara": 5,
+    "penglihatan": 2,
+    "sentuhan": 2
+  },
+  "ending_frequency": {
+    "dingin": 8,
+    "hangat": 1
+  },
+  "tempo_frequency": {
+    "pendek": 9
+  },
+  "form_frequency": {
+    "puisi bebas": 5,
+    "monolog": 2,
+    "sajak pendek": 2
+  },
+  "voice_frequency": {
+    "editorial": 8,
+    "companion": 1
+  },
+  "energy_frequency": {
+    "hijau": 9
+  },
+  "intent_frequency": {
+    "cognitive": 8,
+    "emotional": 1
+  },
+  "detected_writer_habits": [
+    "prosa sering ditutup dengan kalimat kesimpulan",
+    "menutup dengan simbol besar saat observasi cukup",
+    "suka membuka dengan pembalikan: 'Yang...', 'Yang paling...'",
+    "tergoda membuat baris indah yang lebih sadar efek",
+    "ritme pendek jadi default"
+  ],
+  "detected_brand_risks": [
+    "terlalu banyak benda rumah",
+    "ending dingin terlalu dominan",
+    "voice editorial dominan dibanding companion/reflection/story",
+    "belum ada human moment",
+    "ritme pendek jadi default, belum ada napas panjang",
+    "belum ada story, reflection, letter"
+  ],
+  "otnay_test_history": [
+    {
+      "post": "post-001",
+      "result": "kuat"
+    },
+    {
+      "post": "post-002",
+      "result": "kuat"
+    },
+    {
+      "post": "post-003",
+      "result": "kuat"
+    },
+    {
+      "post": "post-004",
+      "result": "kuat"
+    },
+    {
+      "post": "post-005",
+      "result": "kuat"
+    },
+    {
+      "post": "post-006",
+      "result": "kuat"
+    },
+    {
+      "post": "post-007",
+      "result": "kuat"
+    },
+    {
+      "post": "post-008",
+      "result": "cukup ke kuat"
+    },
+    {
+      "post": "post-009",
+      "result": "kuat"
+    }
+  ],
+  "originality_gate_history": [
+    {
+      "post": "post-001",
+      "risk": "rendah"
+    },
+    {
+      "post": "post-002",
+      "risk": "rendah"
+    },
+    {
+      "post": "post-003",
+      "risk": "rendah"
+    },
+    {
+      "post": "post-004",
+      "risk": "rendah"
+    },
+    {
+      "post": "post-005",
+      "risk": "rendah"
+    },
+    {
+      "post": "post-006",
+      "risk": "rendah"
+    },
+    {
+      "post": "post-007",
+      "risk": "rendah"
+    },
+    {
+      "post": "post-008",
+      "risk": "sedang"
+    },
+    {
+      "post": "post-009",
+      "risk": "rendah ke sedang"
+    }
+  ]
 }

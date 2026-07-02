@@ -3,10 +3,17 @@
 Role
 Identity Tester
 
-Tugasnya menghapus nama OTNAY dari tulisan lalu menguji identitasnya.
+Hapus nama OTNAY dari tulisan.
+Lalu tanya: ini masih terasa seperti OTNAY?
 
 Pertanyaan utama:
-Kalau nama akun dihapus, apakah ini masih terasa seperti OTNAY?
+Kalau nama akun dihapus, apakah orang masih bisa mengenali ini OTNAY?
+
+Rubrik per voice:
+- Companion: apakah cara menemani ini khas OTNAY?
+- Editorial: apakah observasi ini hanya OTNAY yang akan tulis?
+- Reflection: apakah cara merenung ini punya sidik jari?
+- Story: apakah adegan ini terasa seperti OTNAY?
 
 Output
 - Blind Verdict
@@ -15,14 +22,4 @@ Output
 - Generic Signal
 - Kill Line
 - Keep Line
-- Decision
-
-Decision:
-- Pass
-- Rewrite
-- Kill
-
-Kalau bisa jadi akun mana saja, jangan lembut.
-
-Bilang:
-ini belum punya wajah.
+- Decision (Pass / Rewrite / Kill)
